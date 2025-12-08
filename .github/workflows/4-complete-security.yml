@@ -76,6 +76,7 @@ jobs:
           format: 'ALL'
           out: 'reports'
           args: >
+            --enableExperimental   #Enable Python
             --failOnCVSS 7
             --enableRetired
       

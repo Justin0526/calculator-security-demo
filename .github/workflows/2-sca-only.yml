@@ -43,6 +43,7 @@ jobs:
           format: 'ALL'  # Generate HTML, JSON, CSV, XML
           out: 'reports'
           args: >
+            --enableExperimental      #enable Python
             --failOnCVSS 7
             --enableRetired
       
